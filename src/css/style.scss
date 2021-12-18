@@ -1,0 +1,75 @@
+@import "../fonts/openSans/stylesheet.css";
+@import "enhancers";
+@import "../libs/fontello/css/fontello.css";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  scroll-behavior: smooth;
+}
+.container{
+  width: 100vw;
+  max-width: 940px;
+  margin: 0 auto;
+}
+.button{
+  width: 150px;
+  height: 40px;
+  background-color: #00A4E5;
+  border: none;
+  font-family: OpenSans,sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  color: #fff;
+  cursor: pointer;
+}
+.blue{
+  color: deepskyblue;
+}
+a{
+  color: #E6E6E6;
+}
+.navBurger{
+  display: none;
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
+.linksBurger{
+  display: none;
+}
+.scroll-up{
+  border: 2px solid black;
+  border-radius: 15px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgba(72, 85, 91, 1);
+  font-family: OpenSans,sans-serif;
+  font-size: 12px;
+  line-height: 10px;
+  letter-spacing: 0.5px;
+  position: absolute;
+  bottom: 100px;
+  left: 40px;
+}
+//<a class="scroll-up" href="#home">scroll <br> up</a>
+
+
+@import "header";
+@import "story";
+@import "capabilities";
+@import "service";
+@import "build";
+@import "signUp";
+@import "footer-info";
+@import "media";

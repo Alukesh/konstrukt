@@ -1,0 +1,30 @@
+.service{
+  padding: 80px 0 115px;
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__card{
+    max-height: 330px;
+    max-width: 295px;
+   border: 1px solid rgba(230, 230, 230, 1);
+    padding: 38px 22px;
+    &-img{
+      max-width: 65px;
+      margin-bottom: 25px;
+    }
+    &-title{
+      margin-bottom: 13px;
+      font-family: OpenSans,sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+    }
+    &-text{
+      font-family: OpenSans,sans-serif;
+      font-size: 13px;
+      line-height: 23px;
+      letter-spacing: 0.1875px;
+    }
+  }
+}

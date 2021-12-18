@@ -1,0 +1,68 @@
+
+  .first-screen{
+    padding: 44px 0 71px;
+    background: url("../img/bg.jpg")top/cover no-repeat;
+    text-align: center;
+
+    &__logo{
+      margin-bottom: 318px;
+    }
+    &__title{
+      font-family: BebasNeueBold,sans-serif;
+      font-size: 60px;
+      line-height: 70px;
+      color: white;
+    }
+    &__text{
+      margin-bottom: 221px;
+      font-family: OpenSans,sans-serif;
+      font-size: 16px;
+      line-height: 19px;
+      color: white;
+    }
+    &__btn{
+      background: transparent;
+      border: none;
+      color: white;
+      font-family: OpenSans,sans-serif;
+      font-size: 11px;
+      line-height: 13px;
+    }
+  }
+
+.header{
+  &__navbar{
+    padding: 24px 0;
+    border-bottom: 1px solid #E6E6E6;
+    &-link{
+      cursor: pointer;
+      color: #48555B;
+      transition: .2s;
+    }
+     &-link:hover{
+      color: rgba(0, 164, 229, 1);
+       font-weight: 500;
+       transition: .2s;
+    }
+
+    &-row{
+      display: flex;
+      justify-content: space-between;
+      color: #48555B;
+    ;
+    }
+    &-list{
+      display: flex;
+      font-family: OpenSans, sans-serif;
+      font-size: 12px;
+      line-height: 14px;
+      column-gap: 40px;
+    }
+}
+
+  }
+
+
+
+
+

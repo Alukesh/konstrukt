@@ -1,0 +1,11 @@
+$openSans:OpenSans, sans-serif;
+$Bebas:BebasNeueBold, sans-serif;
+
+@mixin text($ff,  $fz, $fs,  $fw, $lh, $cr ){
+  font-family: $ff;
+  font-size: $fz;
+  font-style: $fs;
+  font-weight: $fw;
+  line-height: 70px;
+  color: $cr;
+}

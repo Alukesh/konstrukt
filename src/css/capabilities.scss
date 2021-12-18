@@ -1,0 +1,31 @@
+.capabilities{
+  &-row{
+    display: flex;
+    align-items: center;
+  }
+  &-title{
+    margin-right: 155px;
+    font-family: OpenSans,sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 2.3062498569488525px;
+    position: relative;
+  }
+  &-title::before{
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #00A4E5;
+  }
+  &-text{
+    max-width: 405px;
+    margin-right: 41px;
+    font-family: OpenSans, sans-serif;
+    font-size: 11px;
+    line-height: 19px;
+  }
+
+}
